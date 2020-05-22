@@ -22,7 +22,7 @@ font-family:'Merriweather', serif;
 .top-container{
   background-color: #112d4e/*#FFF3E0*/;
   position:relative;
-  padding-top: 150px;
+  padding-top: 10%;
 
 }
 
@@ -40,27 +40,27 @@ font-family:'Merriweather', serif;
 }
 
 .earth-pic{
-  padding-top:100px;
+  padding-top:7%;
 }
 
 .iss{
   position:absolute;
-  left:250px;
-  height:150px;
+  left:18%;
+  height:16.5%;
 }
 
 .moon{
-  height:200px;
+  height:23%;
   position:absolute;
-  right:250px;
-  top:40px;
+  right:16.5%;
+  top:5%;
 
 }
 
 .name{
   color:#f9f7f7;
   font-family:'Sacramento', sans-serif;
-  font-size: 50px;
+  font-size:3.125rem;
 }
 
 .intro{
@@ -70,11 +70,12 @@ font-family:'Merriweather', serif;
 }
 
 .python-pic{
-  height:300px;
+  /* height:300px; */
+  width:20%;
 }
 
 .dev-pic{
-  height:300px;
+  width:20%;
 
 }
 .dev-attr{
