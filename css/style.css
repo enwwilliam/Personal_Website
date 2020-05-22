@@ -7,7 +7,8 @@ body{
 h1{
   display: block;
   margin-top:0;
-  font-family:'Merriweather', serif;}
+  font-family:'Merriweather', serif;
+}
 
 h2{
 font-family:'Merriweather', serif;
@@ -19,9 +20,9 @@ font-family:'Merriweather', serif;
 
 
 .top-container{
-  background-color: #FFF3E0;
+  background-color: #112d4e/*#FFF3E0*/;
   position:relative;
-  padding-top: 90px;
+  padding-top: 150px;
 
 }
 
@@ -33,28 +34,39 @@ font-family:'Merriweather', serif;
 }
 
 .bottom-container{
-  background-color: #DBBCB4;
+  background-color: #dbe2ef;
   /* height:200px;
   display:inline-block; */
 }
 
-.bottom-cloud{
-  position:absolute;
-  left:360px;
+.earth-pic{
+  padding-top:100px;
 }
 
-.top-cloud{
+.iss{
   position:absolute;
-  right:360px;
+  left:250px;
+  height:150px;
+}
+
+.moon{
+  height:200px;
+  position:absolute;
+  right:250px;
   top:40px;
+
 }
 
 .name{
+  color:#f9f7f7;
   font-family:'Sacramento', sans-serif;
+  font-size: 50px;
 }
 
 .intro{
+  color:#f9f7f7;
   font-family:'Merriweather', serif;
+  font-size:15px;
 }
 
 .python-pic{
